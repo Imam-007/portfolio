@@ -7,7 +7,6 @@ const Experience = () => {
       id="experience"
       className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2"
     >
-      {/* Section Title */}
       <div className="text-center mb-20">
         <h2 className="text-4xl font-bold text-white tracking-wide">
           EXPERIENCE
@@ -19,12 +18,9 @@ const Experience = () => {
         </p>
       </div>
 
-      {/* Timeline Container */}
       <div className="relative">
-        {/* Center Vertical Line */}
         <div className="absolute left-1/2 transform -translate-x-1/2 top-0 w-[3px] bg-white/20 h-full"></div>
 
-        {/* Timeline Entries */}
         {experiences.map((exp, index) => {
           const isLeft = index % 2 === 0
 
@@ -33,7 +29,6 @@ const Experience = () => {
               key={exp.id}
               className="relative w-full flex flex-col sm:flex-row items-center mb-24"
             >
-              {/* LEFT SIDE CARD */}
               <div
                 className={`hidden sm:flex sm:w-1/2 ${
                   isLeft ? 'justify-end pr-20' : 'justify-end'
@@ -41,7 +36,6 @@ const Experience = () => {
               >
                 {isLeft && (
                   <div className="w-full sm:max-w-md bg-gray-900 border border-white/20 rounded-2xl p-8 shadow-[0_0_30px_rgba(130,69,236,0.3)] hover:scale-[1.03] transition-all duration-300 mt-10">
-                    {/* Top Row */}
                     <div className="flex items-center space-x-5">
                       <div className="w-16 h-16 bg-white rounded-xl overflow-hidden shadow-lg">
                         <img
@@ -60,10 +54,8 @@ const Experience = () => {
                       </div>
                     </div>
 
-                    {/* Description */}
                     <p className="mt-4 text-gray-300">{exp.desc}</p>
 
-                    {/* Skills */}
                     <div className="mt-4">
                       <h5 className="text-white font-semibold mb-2">Skills:</h5>
                       <ul className="flex flex-wrap gap-2">
@@ -81,7 +73,6 @@ const Experience = () => {
                 )}
               </div>
 
-              {/* CENTER CIRCLE NODE */}
               <div className="relative w-full sm:w-0 flex items-center justify-center my-6">
                 <div
                   className="
@@ -100,7 +91,6 @@ const Experience = () => {
                 </div>
               </div>
 
-              {/* RIGHT SIDE CARD */}
               <div
                 className={`hidden sm:flex sm:w-1/2 ${
                   !isLeft ? 'justify-start pl-20' : 'justify-start'
@@ -145,7 +135,6 @@ const Experience = () => {
                 )}
               </div>
 
-              {/* MOBILE VERSION CARD */}
               <div className="sm:hidden w-full px-4 mt-20">
                 <div className="bg-gray-900 border border-white/20 rounded-xl p-6 shadow-xl">
                   <div className="flex items-center space-x-4">

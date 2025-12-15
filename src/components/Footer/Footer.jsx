@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { FaTwitter, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   const handleScroll = (sectionId) => {
@@ -19,7 +19,7 @@ const Footer = () => {
             { name: 'About', id: 'about' },
             { name: 'Skills', id: 'skills' },
             { name: 'Experience', id: 'experience' },
-            { name: 'Projects', id: 'projects' },
+            { name: 'Projects', id: 'work' },
             { name: 'Education', id: 'education' },
           ].map((item, index) => (
             <button
