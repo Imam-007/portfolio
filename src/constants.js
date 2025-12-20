@@ -1,6 +1,6 @@
 // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png'
-import kafkaLogo from './assets/tech_logo/Kafka.webp'
+import kafkaLogo from './assets/tech_logo/kafka.webp'
 import micoserviceLogo from './assets/tech_logo/microservice.jfif'
 import hibernateLogo from './assets/tech_logo/hibernate.png'
 import redisLogo from './assets/tech_logo/redis.webp'
