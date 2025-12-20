@@ -175,7 +175,7 @@ export const education = [
     date: 'Aug 2018 - May 2021',
     grade: '9.7',
     desc: 'I completed my Diploma in Computer Science from Maulana Azad National Urdu University (MANUU), Hyderabad. During this program, I built a strong foundation in core computer science concepts such as programming fundamentals, data structures, database management systems, and computer networks. I also gained hands-on experience in software development through practical lab work and academic projects, which helped me understand how theoretical concepts are applied in real-world applications.',
-    degree: 'Polytechnic',
+    degree: 'Diploma',
   },
   {
     id: 2,
@@ -184,7 +184,7 @@ export const education = [
     date: 'May 2016 - March 2017',
     grade: '75%',
     desc: 'I completed my class 10 education from Rajo Singh High School, Ambari, under the BSEB board.',
-    degree: 'X',
+    degree: 'SSC',
   },
 ]
 
