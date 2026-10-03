@@ -33,7 +33,7 @@ const About = () => {
             />
           </h3>
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a software developer with over 1.5+ years of experience in
+            I am a software developer with over 2+ years of experience in
             building high-performance and scalable web applications. Skilled in
             both front-end and back-end development, I specialize in Java,
             Spring Boot, Microservices, Kafka, React.js, and modern distributed
